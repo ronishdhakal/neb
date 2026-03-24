@@ -13,11 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SEE Result 2082/2083 - College Info Nepal",
+  title: "Class 12 Result 2083/2083 - College Info Nepal",
   description:
-    "Check SEE Result 2082/2083 Online with College Info Nepal for FREE. Your SEE GPA is just a click",
+    "Check Class 12 Result 2083/2083 Online with College Info Nepal for FREE. Your Class 12 GPA is just a click",
   icons: {
     icon: "/assets/icon.png",
+    shortcut: "/assets/icon.png",
+    apple: "/assets/icon.png",
   },
 };
 
@@ -44,3 +46,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

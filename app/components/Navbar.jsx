@@ -8,30 +8,30 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="w-full bg-white border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+    <header className="w-full bg-white/80 backdrop-blur-lg border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
         
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
             src="/assets/logo.svg"
             alt="College Info Nepal Logo"
-            width={170}
-            height={170}
+            width={180}
+            height={180}
             priority
             className="object-contain"
           />
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex items-center gap-10 text-base font-medium text-gray-700">
-          <Link href="https://www.collegeinfonepal.com/" className="hover:text-blue-600 transition">
+        <nav className="hidden md:flex items-center gap-8 text-sm sm:text-base font-medium text-slate-700">
+          <Link href="https://www.collegeinfonepal.com/" className="px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-700 transition">
             Home
           </Link>
-          <Link href="https://www.collegeinfonepal.com/course" className="hover:text-blue-600 transition">
+          <Link href="https://www.collegeinfonepal.com/course" className="px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-700 transition">
             Courses
           </Link>
-          <Link href="https://www.collegeinfonepal.com/college" className="hover:text-blue-600 transition">
+          <Link href="https://www.collegeinfonepal.com/college" className="px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-700 transition">
             Colleges
           </Link>
           {/* <Link href="https://www.collegeinfonepal.com/college" className="hover:text-blue-600 transition">
@@ -61,18 +61,18 @@ export default function Navbar() {
 
       {/* Mobile Dropdown */}
       {open && (
-        <div className="md:hidden border-t bg-white">
-          <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-4 text-base font-medium text-gray-700">
-            <Link href="/" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">
+        <div className="md:hidden border-t border-gray-200 bg-white shadow-lg">
+          <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-2 text-base font-medium text-slate-700">
+            <Link href="/" onClick={() => setOpen(false)} className="px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-700 transition">
               Home
             </Link>
-            <Link href="/result" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">
+            <Link href="/result" onClick={() => setOpen(false)} className="px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-700 transition">
               Result
             </Link>
-            <Link href="/about" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">
+            <Link href="/about" onClick={() => setOpen(false)} className="px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-700 transition">
               About
             </Link>
-            <Link href="/contact" onClick={() => setOpen(false)} className="hover:text-blue-600 transition">
+            <Link href="/contact" onClick={() => setOpen(false)} className="px-3 py-2 rounded-lg hover:bg-blue-50 hover:text-blue-700 transition">
               Contact
             </Link>
           </div>

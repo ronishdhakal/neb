@@ -2,10 +2,10 @@ export default function HowToCheckIVR() {
   return (
     <section className="w-full bg-white py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How to Check SEE Result 2082/2083 via IVR</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How to Check Class 12 Result 2083/2083 via IVR</h2>
 
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mb-12">
-          Students can also check the SEE Result via IVR (Interactive Voice Response) service. Follow the steps below:
+          Students can also check the Class 12 Result via IVR (Interactive Voice Response) service. Follow the steps below:
         </p>
 
         {/* Steps */}
@@ -26,3 +26,4 @@ export default function HowToCheckIVR() {
     </section>
   )
 }
+

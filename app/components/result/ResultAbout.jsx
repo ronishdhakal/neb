@@ -2,30 +2,30 @@ export default function ResultAbout() {
   return (
     <section className="w-full bg-white py-16">
       <div className="max-w-7xl mx-auto px-4">
-        {/* About SEE 2082 */}
+        {/* About Class 12 2083 */}
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">About SEE 2082</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">About Class 12 2083</h2>
 
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl">
-            The Secondary Education Examination (SEE) is a Class 10 board exam conducted by the National Examinations
-            Board (NEB). This year, the SEE exam was conducted from Chaitra 19, 2082 to Chaitra 29, 2082 (varies by
+            The Secondary Education Examination (Class 12) is a Class 10 board exam conducted by the National Examinations
+            Board (NEB). This year, the Class 12 exam was conducted from Baisakh 14, 2083 to Baisakh 27, 2083 (varies by
             faculty).
             <br />
-            <br />Over 5 Lakhs students appeared for the SEE Exam 2082, of which 4 Lakhs Plus were regular students and
+            <br />Around 5 Lakhs students appeared for the Class 12 Exam 2083, of which 4 Lakhs Plus were regular students and
             the remaining were supplementary students.
           </p>
         </div>
 
-        {/* Check SEE Result 2082/2083 */}
+        {/* Check Class 12 Result 2083/2083 */}
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">Check SEE Result 2082/2083</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">Check Class 12 Result 2083/2083</h2>
 
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl">
-            Students can check the SEE Result 2082/2083 through multiple websites. Our platform provides a secure,
-            reliable way to access your results. You can check the SEE Result 2082 at see.collegeinfonepal.com
+            Students can check the Class 12 Result 2083/2083 through multiple websites. Our platform provides a secure,
+            reliable way to access your results. You can check the Class 12 Result 2083 at Class 12.collegeinfonepal.com
             <br />
             <br />
-            In addition to our online platform, you can also check the SEE Result via SMS and IVR services. However,
+            In addition to our online platform, you can also check the Class 12 Result via SMS and IVR services. However,
             these services charge a fee, while checking the result through our website is completely free.
           </p>
         </div>
@@ -33,3 +33,4 @@ export default function ResultAbout() {
     </section>
   )
 }
+

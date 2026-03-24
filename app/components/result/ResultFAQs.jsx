@@ -7,19 +7,19 @@ export default function ResultFAQs() {
     {
       question: "Can I check my result on College Info Nepal?",
       answer:
-        "Yes. Once NEB publishes the SEE Result, it will be accessible via the College Info Nepal website at see.collegeinfonepal.com We recommend bookmarking our result page.",
+        "Yes. Once NEB publishes the Class 12 Result, it will be accessible via the College Info Nepal website at Class 12.collegeinfonepal.com We recommend bookmarking our result page.",
     },
     {
-      question: "Can I check the SEE Result 2082 online?",
-      answer: "Yes, you can check your SEE Result online via NEB-authorized websites such as College Info Nepal.",
+      question: "Can I check the Class 12 Result 2083 online?",
+      answer: "Yes, you can check your Class 12 Result online via NEB-authorized websites such as College Info Nepal.",
     },
     {
-      question: "Can I view someone else's SEE Result?",
+      question: "Can I view someone else's Class 12 Result?",
       answer: "Yes. If you have your friend's or someone else's Symbol Number, you can check their result as well.",
     },
     {
-      question: "Is there any charge to check the SEE Result?",
-      answer: "No, there is no charge to check the SEE Result online. However, SMS and IVR services will charge a fee.",
+      question: "Is there any charge to check the Class 12 Result?",
+      answer: "No, there is no charge to check the Class 12 Result online. However, SMS and IVR services will charge a fee.",
     },
   ]
 
@@ -72,3 +72,4 @@ export default function ResultFAQs() {
     </section>
   )
 }
+

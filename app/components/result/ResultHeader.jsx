@@ -4,7 +4,7 @@ export default function ResultHeader() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Content - Centered */}
         <div className="text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">SEE RESULT 2082</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">Class 12 RESULT 2083</h1>
           <p className="text-base sm:text-lg text-gray-600 mb-8 sm:mb-10 md:mb-12">
             Check your examination results securely and instantly
           </p>
@@ -33,3 +33,4 @@ export default function ResultHeader() {
     </section>
   )
 }
+

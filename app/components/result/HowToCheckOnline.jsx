@@ -3,11 +3,11 @@ export default function HowToCheckOnline() {
     <section className="w-full bg-white py-16">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How to Check SEE Result 2082/2083 Online</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How to Check Class 12 Result 2083/2083 Online</h2>
 
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mb-12">
-          Checking the SEE Result 2082 online is simple and straightforward. You can visit trusted websites like College
-          Info Nepal for timely and accurate results. Follow the steps below to check the SEE Result online:
+          Checking the Class 12 Result 2083 online is simple and straightforward. You can visit trusted websites like College
+          Info Nepal for timely and accurate results. Follow the steps below to check the Class 12 Result online:
         </p>
 
         {/* Content Grid */}
@@ -21,10 +21,10 @@ export default function HowToCheckOnline() {
             </div>
             <div>
               <p className="text-lg font-semibold text-gray-900">
-                Visit <span className="text-blue-600">see.collegeinfonepal.com</span>
+                Visit <span className="text-blue-600">Class 12.collegeinfonepal.com</span>
               </p>
               <p className="text-gray-600 mt-2">
-                or search for "SEE Result College Info Nepal" on search engines like Google.
+                or search for &quot;Class 12 Result College Info Nepal&quot; on search engines like Google.
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function HowToCheckOnline() {
             <div>
               <p className="text-lg font-semibold text-gray-900">Input your Symbol Number</p>
               <p className="text-gray-600 mt-2">
-                In the Symbol Number section, enter your symbol number accurately as per your SEE Admit Card.
+                In the Symbol Number section, enter your symbol number accurately as per your Class 12 Admit Card.
               </p>
             </div>
           </div>
@@ -61,3 +61,4 @@ export default function HowToCheckOnline() {
     </section>
   )
 }
+
