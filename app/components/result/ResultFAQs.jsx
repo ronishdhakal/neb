@@ -7,7 +7,7 @@ export default function ResultFAQs() {
     {
       question: "Can I check my result on College Info Nepal?",
       answer:
-        "Yes. Once NEB publishes the Class 12 Result, it will be accessible via the College Info Nepal website at Class 12.collegeinfonepal.com We recommend bookmarking our result page.",
+        "Yes. Once NEB publishes the Class 12 Result, it will be accessible via the College Info Nepal website at neb.collegeinfonepal.com We recommend bookmarking our result page.",
     },
     {
       question: "Can I check the Class 12 Result 2083 online?",

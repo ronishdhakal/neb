@@ -21,7 +21,7 @@ export default function HowToCheckOnline() {
             </div>
             <div>
               <p className="text-lg font-semibold text-gray-900">
-                Visit <span className="text-blue-600">Class 12.collegeinfonepal.com</span>
+                Visit <span className="text-blue-600">neb.collegeinfonepal.com</span>
               </p>
               <p className="text-gray-600 mt-2">
                 or search for &quot;Class 12 Result College Info Nepal&quot; on search engines like Google.

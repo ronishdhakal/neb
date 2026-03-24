@@ -7,7 +7,7 @@ export default function ResultAbout() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">About Class 12 2083</h2>
 
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl">
-            The Secondary Education Examination (Class 12) is a Class 10 board exam conducted by the National Examinations
+            The Secondary Education Examination (Class 12) is a Class 12 board exam conducted by the National Examinations
             Board (NEB). This year, the Class 12 exam was conducted from Baisakh 14, 2083 to Baisakh 27, 2083 (varies by
             faculty).
             <br />
@@ -22,7 +22,7 @@ export default function ResultAbout() {
 
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl">
             Students can check the Class 12 Result 2083/2083 through multiple websites. Our platform provides a secure,
-            reliable way to access your results. You can check the Class 12 Result 2083 at Class 12.collegeinfonepal.com
+            reliable way to access your results. You can check the Class 12 Result 2083 at neb.collegeinfonepal.com
             <br />
             <br />
             In addition to our online platform, you can also check the Class 12 Result via SMS and IVR services. However,
