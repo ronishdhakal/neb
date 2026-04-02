@@ -21,12 +21,15 @@ export const metadata = {
     shortcut: "/assets/icon.png",
     apple: "/assets/icon.png",
   },
+  verification: {
+    google: "In_u6RGEpUbj3PhoaLjXNsloEjIUZ2cXTcYqfLi_iYU",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <head>
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3H8YGYXHPP"
@@ -37,13 +40,18 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-3H8YGYXHPP');
+            gtag('config', 'G-3H8YGYXHPP', {
+              page_path: window.location.pathname,
+            });
           `}
         </Script>
+      </head>
 
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
   );
 }
-
