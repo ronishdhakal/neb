@@ -3,7 +3,7 @@ export default function HowToCheckOnline() {
     <section className="w-full bg-white py-16">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How to Check Class 12 Result 2083/2083 Online</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How to Check Class 12 Result 2083 Online</h2>
 
         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mb-12">
           Checking the Class 12 Result 2083 online is simple and straightforward. You can visit trusted websites like College

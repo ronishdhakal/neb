@@ -14,7 +14,7 @@ export default function GradingSystemTable() {
     <section className="w-full bg-white py-12 sm:py-14 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8 sm:mb-10">
-          Grading System and Points used on Marksheet
+          Class 12 Grading System and Points used on Marksheet
         </h2>
 
         {/* Table Card */}
